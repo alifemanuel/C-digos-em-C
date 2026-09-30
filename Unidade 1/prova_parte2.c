@@ -51,7 +51,7 @@ int main() {
         b1 = a1*tan(theta_i_rad);
 
         b2 = 3*(y_f - y_i) - 3*(tan(theta_f_rad))*(x_f - x_i) + a2*tan(theta_f_rad) - 2*a1*(tan(theta_i_rad) - tan(theta_f_rad));
-        b3 = 3*(x_f - x_i)*tan(theta_f_rad) - 2*(y_f - y_i) - a2*tan(theta_f_rad) - a2*(2*tan(theta_f_rad) - tan(theta_i_rad));
+        b3 = 3*(x_f - x_i)*tan(theta_f_rad) - 2*(y_f - y_i) - a2*tan(theta_f_rad) - a1*(2*tan(theta_f_rad) - tan(theta_i_rad));
 
         x_k = a0 + a1*k + a2*k*k + a3*k*k*k;
         y_k = b0 + b1*k + b2*k*k + b3*k*k*k;
