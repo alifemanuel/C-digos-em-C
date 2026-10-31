@@ -23,6 +23,7 @@ int main()
     for( i=0; i<t; i++)
         for( j=0; text[i][j]; j++)
             putchar(text[i][j]);
+            // printf("%d", text[i][j]);
 
     return 0;
 }

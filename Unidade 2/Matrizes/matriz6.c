@@ -9,7 +9,7 @@ int main()
     scanf("%d", &i);
 
     printf("Digite uma string: ");
-    //scanf("%s", str);
+    // scanf("%s", str);
     fgets(str, sizeof(str), stdin);
     printf("Voce digitou: %s e %d\n", str, i);
 
